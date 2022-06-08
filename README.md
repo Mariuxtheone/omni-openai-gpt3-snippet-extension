@@ -6,8 +6,8 @@ This is an Extension that adds a simple snippet UI to NVIDIA Omniverse which all
 
 In order to use this extension, you will need to install the following dependencies:
 
-openai python library: `pip install openai`
-pyperclip `pip install pyperclip`
+- openai python library: `pip install openai`
+- pyperclip: `pip install pyperclip`
 
 ## 2) Installation
 
