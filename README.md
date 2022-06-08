@@ -1,4 +1,5 @@
 # NVIDIA Omniverse OpenAI GPT-3 Snippet Extension
+![Screenshot](exts/omni.openai.snippet/data/screenshot.jpg)
 
 This is an Extension that adds a simple snippet UI to NVIDIA Omniverse which allows you to generate GPT-3 based snippets.
 
