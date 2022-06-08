@@ -15,14 +15,18 @@ pyperclip `pip install pyperclip`
 2) We need to create a folder to include the OPEN AI API key and the path to the main Python modules repository on our device, since Omniverse doesn't use the Python global PYTHONHOME and PYTHONPATH.
 3) To do this, in the omni\openai\snippet\ folder, create a new file called `apikeys.py`
 4) in the `apikeys.py` file, add the following lines:
-    
+
+```   
 apikey = "YOUR_OPENAI_API_KEY_GOES_HERE"
 pythonpath = "The file path where you have installed your main python modules"
+```
 
 so `apikeys.py` should look like this:
 
+```
 apikey = "sk-123Mb38gELphag234GDyYT67FJwa3334FPRZQZ2Aq5f1o" (this is a fake API key, good try!)
 pythonpath = "C:/Users/yourusername/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/LocalCache/local-packages/Python310/site-packages"
+```
 
 ## 3) Enable and Usage
 
