@@ -37,6 +37,8 @@ To use the extension, enable it from the Extension Window and then click the "Ge
 
 2) The extension by default generate snippets up to 40 Tokens. If you want to generate more tokens, you will need to edit the variable `openaitokensresponse`
 
+3) The extension by default uses the GPT-3 Engine "DaVinci" `text-davinci-001` which is the most powerful, but also, most expensive engine. If you want to use a different engine, you will need to edit the variable `engine` in `openai.Completion.create()`.
+
 
 
 
